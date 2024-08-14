@@ -1,0 +1,178 @@
+{
+	"workbench.iconTheme": "material-icon-theme",
+	//Main editor settings
+	"editor.tabSize": 2,
+	"editor.folding": false,
+	"editor.insertSpaces": false,
+	"editor.smoothScrolling": true,
+	"editor.minimap.enabled": false,
+	"editor.detectIndentation": true,
+	"editor.suggestSelection": "first",
+	"window.zoomLevel": 1,
+	"editor.multiCursorModifier": "ctrlCmd",
+
+	//Wrapping
+	"editor.wordWrap": "bounded",
+	"editor.wrappingIndent": "same",
+	"editor.wordWrapColumn": 80,
+
+	//Determines whether the editor will scroll beyond the last line
+	"editor.scrollBeyondLastLine": true,
+
+	//Rename tags
+	"editor.linkedEditing": true,
+
+	//Auto closing tags
+	"html.autoClosingTags": true,
+	"javascript.autoClosingTags": true,
+	"typescript.autoClosingTags": true,
+
+	//Determines whether the editor should display control characters
+	"editor.renderControlCharacters": false,
+
+	// Highlighting ambiguous characters
+	"editor.unicodeHighlight.ambiguousCharacters": false,
+
+	// Quick Tips
+	"editor.quickSuggestionsDelay": 0,
+	"html.completion.attributeDefaultValue": "singlequotes",
+
+	//Appearance
+	"editor.bracketPairColorization.enabled": false,
+	"editor.glyphMargin": false,
+	"editor.scrollbar.horizontal": "hidden",
+	"editor.scrollbar.vertical": "hidden",
+	"window.density.editorTabHeight": "compact",
+	"symbols.hidesExplorerArrows": false,
+	"workbench.activityBar.location": "top",
+	"workbench.colorTheme": "Darcula",
+	"window.customTitleBarVisibility": "auto",
+	"editor.accessibilitySupport": "off",
+	"window.commandCenter": false,
+	"workbench.layoutControl.enabled": false,
+
+	//Cursor
+	"editor.cursorBlinking": "expand",
+	"editor.cursorStyle": "line-thin",
+	"editor.cursorSmoothCaretAnimation": "explicit",
+
+	//Font
+	"editor.fontSize": 16,
+	"editor.lineHeight": 25,
+	"editor.inlayHints.fontFamily": "PragmataPro",
+
+	//Terminal
+	"terminal.integrated.tabs.enabled": false,
+	"terminal.integrated.fontSize": 16,
+
+	//Explorer
+	"explorer.confirmDelete": false,
+	"explorer.compactFolders": false,
+	"explorer.confirmDragAndDrop": false,
+
+	"workbench.editor.tabSizing": "shrink",
+	"workbench.startupEditor": "newUntitledFile",
+
+	//Debug
+	"debug.toolBarLocation": "hidden",
+	"debug.focusWindowOnBreak": false,
+	"debug.showInlineBreakpointCandidates": false,
+	"debug.showBreakpointsInOverviewRuler": false,
+
+	//Emmet
+	"emmet.includeLanguages": {
+		"blade": "html",
+		"javascript": "javascriptreact"
+	},
+	"emmet.triggerExpansionOnTab": true,
+
+	//Format
+	"prettier.semi": false,
+	"prettier.useTabs": true,
+	"editor.formatOnSave": true,
+	"prettier.singleQuote": true,
+	"prettier.jsxSingleQuote": true,
+	"editor.codeActionsOnSave": {
+		"source.organizeImports": "explicit"
+	},
+	"[prisma]": {
+		"editor.defaultFormatter": "Prisma.prisma"
+	},
+	// ==
+	"prettier.arrowParens": "avoid",
+	"editor.defaultFormatter": "esbenp.prettier-vscode",
+	// ==
+	"editor.inlineSuggest.enabled": true,
+
+	//Breadcrumbs
+	"breadcrumbs.icons": false,
+	"breadcrumbs.showKeys": false,
+	"breadcrumbs.showFiles": false,
+	"breadcrumbs.symbolPath": "off",
+	"breadcrumbs.showArrays": false,
+	"breadcrumbs.showEvents": false,
+	"breadcrumbs.showFields": false,
+	"breadcrumbs.showClasses": false,
+	"breadcrumbs.showMethods": false,
+	"breadcrumbs.showBooleans": false,
+	"breadcrumbs.showFunctions": false,
+	"breadcrumbs.showConstants": false,
+	"breadcrumbs.showEnumMembers": false,
+	"breadcrumbs.showConstructors": false,
+
+	//JS & TS
+	"javascript.updateImportsOnFileMove.enabled": "always",
+	"typescript.updateImportsOnFileMove.enabled": "always",
+	"typescript.preferences.quoteStyle": "single",
+	"javascript.preferences.quoteStyle": "single",
+	"javascript.format.semicolons": "remove",
+	"typescript.format.semicolons": "remove",
+	"js/ts.implicitProjectConfig.experimentalDecorators": true,
+
+	//Spell checker
+	"cSpell.language": "en,ru",
+	"cSpell.userWords": [],
+	"cSpell.enabled": true,
+	"cSpell.enableFiletypes": [
+		"blade",
+		"jsx",
+		"tsx",
+		"ts",
+		"js",
+		"scss",
+		"sass",
+		"vue"
+	],
+
+	"editor.unicodeHighlight.allowedCharacters": {
+		"а": true,
+		"с": true,
+		"Т": true,
+		"б": true,
+		"е": true
+	},
+	"editor.hideCursorInOverviewRuler": true,
+	"git.enableSmartCommit": true,
+
+	"files.exclude": {
+		"**/.expo": true,
+		"**/.expo-shared": true,
+		"**/.idea": true,
+		"**/.next": true,
+		"**/.nuxt": true,
+		"**/dist": true
+	},
+
+	//OTHER
+	"files.defaultLanguage": "plaintext",
+	"diffEditor.ignoreTrimWhitespace": false,
+	"security.workspace.trust.untrustedFiles": "open",
+	"window.confirmBeforeClose": "keyboardOnly",
+	"git.openRepositoryInParentFolders": "never",
+	"editor.gotoLocation.multipleDefinitions": "goto",
+	"workbench.editor.empty.hint": "hidden",
+	"editor.stickyScroll.scrollWithEditor": false,
+	"workbench.tree.enableStickyScroll": false,
+	"editor.stickyScroll.enabled": false,
+	"redhat.telemetry.enabled": false
+}
